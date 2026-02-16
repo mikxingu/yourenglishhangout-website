@@ -1,6 +1,6 @@
 import { Check } from "lucide-react";
 import { Card } from "@/components/ui/card";
-import teacherImage from "@/assets/teacher-michel.jpg";
+import teacherImage from "@/assets/images/teacher-michel.jpg";
 
 interface AboutTeacherSectionProps {
   language: 'pt' | 'en';
@@ -70,7 +70,7 @@ export const AboutTeacherSection = ({ language }: AboutTeacherSectionProps) => {
               
               {/* Content */}
               <div className="flex flex-col justify-center space-y-6 animate-fade-in-up" style={{ animationDelay: '100ms' }}>
-                <h3 className="text-2xl md:text-3xl font-bold gradient-hero bg-clip-text text-transparent">
+                <h3 className="text-white text-2xl md:text-3xl font-bold gradient-hero bg-clip-text text-transparent">
                   {t.name}
                 </h3>
                 

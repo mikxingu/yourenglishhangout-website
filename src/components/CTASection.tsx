@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Mail } from "lucide-react";
+import { CalendarPlus, Mail } from "lucide-react";
 
 interface CTASectionProps {
   language: 'pt' | 'en';
@@ -29,14 +29,14 @@ export const CTASection = ({ language }: CTASectionProps) => {
     const message = language === 'pt' 
       ? 'Olá! Gostaria de agendar uma aula experimental gratuita.'
       : 'Hello! I would like to schedule a free trial class.';
-    window.open(`https://wa.me/5511999999999?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://calendar.app.google/o21o5LeN671Qvdhg7`, '_blank');
   };
   
   const handleEmail = () => {
     const subject = language === 'pt' 
       ? 'Aula Experimental Gratuita'
       : 'Free Trial Class';
-    window.location.href = `mailto:contato@conversationpartner.com?subject=${encodeURIComponent(subject)}`;
+    window.location.href = `mailto:michelalvs@gmail.com?subject=${encodeURIComponent(subject)}`;
   };
   
   return (
@@ -60,7 +60,7 @@ export const CTASection = ({ language }: CTASectionProps) => {
                 onClick={handleWhatsApp}
                 className="text-lg px-8 py-6 gradient-hero border-0 hover:opacity-90 transition-opacity shadow-large"
               >
-                <MessageCircle className="mr-2 h-5 w-5" />
+                <CalendarPlus className="mr-2 h-5 w-5" />
                 {t.whatsapp}
               </Button>
               
