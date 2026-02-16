@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, ArrowRight } from "lucide-react";
+import { CalendarPlus, ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-conversation.jpg";
 
 interface HeroProps {
@@ -66,7 +66,7 @@ export const Hero = ({ language }: HeroProps) => {
                 size="lg" 
                 className="text-lg px-8 py-6 gradient-hero border-0 hover:opacity-90 transition-opacity shadow-large group"
               >
-                <MessageCircle className="mr-2 h-5 w-5" />
+                <CalendarPlus className="mr-2 h-5 w-5" />
                 {t.cta}
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>

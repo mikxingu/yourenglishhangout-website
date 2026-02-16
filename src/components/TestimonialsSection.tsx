@@ -11,27 +11,27 @@ const content = {
     testimonials: [
       {
         name: "Patricia",
-        role: "Designer",
+        role: "Empreendedora",
         text: "Finalmente consegui destravar! As conversas são tão naturais que eu nem percebo que estou 'estudando'. Michel tem uma paciência incrível."
       },
       {
         name: "Luiz",
-        role: "Engenheiro de Software",
+        role: "Empreendedor",
         text: "Preciso usar inglês no trabalho todos os dias, mas tinha vergonha de falar. Com o Your English Hangout, minha confiança melhorou muito!"
       },
       {
-        name: "Thiago",
-        role: "Empresário",
+        name: "Thaiza",
+        role: "Engenheira de Software",
         text: "Já tentei vários cursos tradicionais e sempre desistia. Aqui é diferente: leve, divertido e focado no que realmente importa."
       },
       {
         name: "Elaine",
-        role: "Professora",
+        role: "Prof. de Saúde",
         text: "Estava travada há anos. As aulas com Michel são um espaço seguro onde posso errar sem medo. Meu inglês melhorou muito!"
       },
       {
         name: "Vinicius",
-        role: "Analista de Marketing",
+        role: "Empresário",
         text: "Conversamos sobre temas que me interessam de verdade. É como conversar com um amigo que te ajuda a melhorar o inglês naturalmente."
       }
     ]
@@ -41,27 +41,27 @@ const content = {
     testimonials: [
       {
         name: "Patricia",
-        role: "Designer",
+        role: "Entrepreneur",
         text: "I finally unlocked my English! The conversations are so natural I don't even realize I'm 'studying'. Michel has incredible patience."
       },
       {
         name: "Luiz",
-        role: "Software Engineer",
+        role: "Entrepreneur",
         text: "I need to use English at work every day, but I was shy to speak. With Your English Hangout, my confidence improved a lot!"
       },
       {
-        name: "Thiago",
-        role: "Entrepreneur",
+        name: "Thaiza",
+        role: "Software Engineer",
         text: "I've tried several traditional courses and always quit. Here it's different: light, fun and focused on what really matters."
       },
       {
         name: "Elaine",
-        role: "Teacher",
+        role: "Health Professional",
         text: "I was stuck for years. Classes with Michel are a safe space where I can make mistakes without fear. My English improved so much!"
       },
       {
         name: "Vinicius",
-        role: "Marketing Analyst",
+        role: "Business Owner",
         text: "We talk about topics I'm genuinely interested in. It's like chatting with a friend who helps you improve your English naturally."
       }
     ]
