@@ -35,7 +35,7 @@ const Index = () => {
       <footer className="py-8 border-t border-border">
         <div className="container px-4">
           <p className="text-center text-sm text-muted-foreground">
-            © 2024 Your English Hangout. {language === 'pt' ? 'Todos os direitos reservados.' : 'All rights reserved.'}
+            © 2026 Your English Hangout. {language === 'pt' ? 'Todos os direitos reservados.' : 'All rights reserved.'}
           </p>
         </div>
       </footer>
