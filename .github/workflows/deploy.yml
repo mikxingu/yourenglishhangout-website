@@ -39,4 +39,4 @@ jobs:
 
           # faz o deploy usando o token do Actions
           npx gh-pages -d dist \
-            -r https://x-access-token:${GITHUB_TOKEN}@github.com/TechStrikeBrasil/techstrike-website.git
+            -r https://x-access-token:${GITHUB_TOKEN}@github.com/mikxingu/yourenglishhangout-website.git
